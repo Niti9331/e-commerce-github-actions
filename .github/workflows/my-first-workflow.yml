@@ -1,1 +1,9 @@
+# Goal is to say hello in the workflow
 
+# Start with name the working
+name: Hello
+
+# when the workflow runs
+jobs:
+ greet:
+ 
