@@ -5,10 +5,11 @@ on:
   workflow_dispatch: 
 env:
   NAME: Nitisha
+  
 jobs:
   show-env:
     runs-on: ubuntu-latest
     steps:
       - name: show plain text env
-        run: echo "My name is ${{env.NAME}}
+        run: echo "My name is ${{env.NAME}}"
 
